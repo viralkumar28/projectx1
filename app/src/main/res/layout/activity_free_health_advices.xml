@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Activity.FreeHealthAdvices">
+
+    <EditText
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:hint="Profile"/>
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/profile"
+        android:layout_marginTop="@dimen/_10sdp"/>
+    <EditText
+        android:id="@+id/prob"
+        android:layout_below="@id/profile"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:hint="Problem Type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/sp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/prob"
+        android:layout_marginTop="@dimen/_55sdp"/>
+    <EditText
+        android:id="@+id/tit"
+        android:layout_below="@id/prob"
+        android:hint="Title"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/desc"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/tit"
+        android:hint="Description"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_below="@id/desc"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_130sdp"
+
+/>
+
+</RelativeLayout>

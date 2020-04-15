@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/contacttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:text="Contact us"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/text_dashboard"
+        android:layout_below="@id/contacttxt"
+        android:background="@drawable/edit_text_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:hint=" Describe your problem"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+
+        android:textSize="20sp"
+     />
+
+    <Button
+        android:id="@+id/nxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:text="Next"/>
+</RelativeLayout>
