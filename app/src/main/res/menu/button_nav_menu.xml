@@ -9,7 +9,7 @@
     <item
         android:id="@+id/navigation_contact"
         android:icon="@drawable/contactus"
-        
+
         android:title="@string/ContactUs" />
 
       <item

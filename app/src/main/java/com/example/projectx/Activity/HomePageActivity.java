@@ -9,7 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.Menu;
+
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,36 +49,6 @@ public class HomePageActivity extends AppCompatActivity  {
         card = findViewById(R.id.cd);
         card1 = findViewById(R.id.fha);
         card2 = findViewById(R.id.tqt);
-        BottomNavigationView navigation = findViewById(R.id.bottom_nav);
-        navigation.setSelectedItemId(R.id.navigation_home);
-        navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()){
-                    case R.id.navigation_home:
-
-                        return true;
-
-                    case R.id.navigation_contact:
-                        startActivity(new Intent(getApplicationContext(),ContactUs.class));
-                        overridePendingTransition(0,0);
-                        return true;
-
-                    case R.id.navigation_faq:
-                        startActivity(new Intent(getApplicationContext(),FAQ.class));
-                        overridePendingTransition(0,0);
-                        return true;
-
-                    case R.id.navigation_profile:
-                        startActivity(new Intent(getApplicationContext(),UserProfileActivity.class));
-                        overridePendingTransition(0,0);
-                        return true;
-
-
-                }
-                return false;
-            }
-        });
 
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -37,5 +37,7 @@
     <string name="name">Name</string>
     <string name="contact">Contact Number</string>
     <string name="hello" />
+    <string name="search_health_problem_symptoms">Search Health Problem/Symptoms</string>
+    <string name="eg_cold_cough_fever">Eg. Cold,Cough,Fever</string>
 
 </resources>

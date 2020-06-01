@@ -16,13 +16,13 @@
         android:id="@+id/nav"
         android:name="com.example.projectx.Activity.ContactUs"
         android:label="@string/AboutUS"
-        tools:layout="@layout/fragment_contactus" />
+        tools:layout="@layout/activity_contactus" />
 
     <fragment
         android:id="@+id/nav2"
         android:name="com.example.projectx.Activity.FAQ"
         android:label="@string/faq"
-        tools:layout="@layout/faq_fragment" /-->
+        tools:layout="@layout/activity_faq" /-->
 
 
 </navigation>
