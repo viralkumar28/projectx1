@@ -13,13 +13,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.TrendingQuestions"></activity>
-        <activity android:name=".Activity.FreeHealthAdvices" />
-        <activity android:name=".Activity.UserProfileActivity" >
+        <activity android:name=".docprofile">
 
         </activity>
-        <activity android:name=".Activity.FAQ"/>
-        <activity android:name=".Activity.ContactUs"/>
+        <activity android:name=".DocInfo">
+
+        </activity>
+        <activity android:name=".Activity.TrendingQuestions" />
+        <activity android:name=".Activity.FreeHealthAdvices" />
+        <activity android:name=".Activity.UserProfileActivity" />
+        <activity android:name=".Activity.FAQ" />
+        <activity android:name=".Activity.ContactUs" >
+
+        </activity>
         <activity android:name=".Activity.ConsultDoc" />
         <activity android:name=".Activity.MeetDoc" />
         <activity android:name=".Activity.HomePageActivity" />

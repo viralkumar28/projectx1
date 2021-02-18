@@ -39,5 +39,8 @@
     <string name="hello" />
     <string name="search_health_problem_symptoms">Search Health Problem/Symptoms</string>
     <string name="eg_cold_cough_fever">Eg. Cold,Cough,Fever</string>
+    <string name="todo">TODO</string>
+    <string name="DAS">MBBS, Diploma in Child Health (DCH), DNB - Paediatrics Pediatrician, 22 Years Experience Overall</string>
+    <string name="Address">Vraj Hospital, Yakshshree Complex Nr, Chhani Circle, Guru Gobindsinhji Marg, Beside Keya Motors, Nizampura, Vadodara, Gujarat 390002</string>
 
 </resources>

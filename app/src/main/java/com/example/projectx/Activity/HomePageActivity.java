@@ -1,44 +1,33 @@
 package com.example.projectx.Activity;
 
 import androidx.annotation.NonNull;
-
 import androidx.appcompat.app.AppCompatActivity;
-
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
-
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.projectx.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 import androidx.cardview.widget.CardView;
-
 import androidx.recyclerview.widget.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-
 public class HomePageActivity extends AppCompatActivity  {
-
     RecyclerView horizontal_recycler_view;
     HorizontalAdapter horizontalAdapter;
     private List<Data> data;
-
     CardView cardView;
     CardView card;
     CardView card1;
     CardView card2;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
